@@ -6,45 +6,6 @@ body, html {
     font-size: 16px;
 
   }
-  /*
-  .img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
-  .img-1 {
-    background-image: url(./images/movieprojector.jpg);
-    min-height: 100%;
-  }
-  
-  .img-2 {
-    background-image: url(./images/ShawshankRedemptionMoviePoster.jpg);
-    min-height: 500px;
-  }
-  
-  .img-3 {
-    background-image: url(./images/lordoftherings.jpg);
-    min-height: 500px;
-  }
-  
-  .img-4 {
-    background-image: url(./images/lavita.jpg);
-    min-height: 500px;
-  }
-  
-  .img-5 {
-    background-image: url(./images/forrest.jpg);
-    min-height: 500px;
-  }
-  .img-6 {
-    background-image: url(./images/truman.jpg);
-    min-height: 500px;
-  }
-
-  */
 
   .parallax1 { 
  
@@ -123,6 +84,7 @@ body, html {
   .quotetekst1 {
     color: white;
   }
+
   .icons {
     position: absolute;
     top: 2%;
@@ -175,15 +137,13 @@ body, html {
     color: white;
     opacity: 0.2;
 }
-
-.buttonclass {
+relative {
   position: relative;
 }
-
 .button {
   position: absolute;
-  margin-bottom: 20px;
-  margin-left: 300px;
+  bottom: 12%;
+  left: 70%;
 }
 
 /*
@@ -200,7 +160,6 @@ emphasize {
   padding: 5px 10px;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 1em;
-  margin-bottom: 50px;
   color: white;
   box-shadow: 3px 3px 18px #2E2D2D;
 }
@@ -282,6 +241,49 @@ padding: 20px 0px 10px;
   font-family: 'Kameron', serif;
   text-shadow: 2px 2px 20px #2E2D2D;
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.voorgrondnummer {
+  font-size: 5em;
+  bottom: 80%;
+}
+
+.button {
+  font-size: 0.8em;
+  bottom: 5%;
+  left: 100%;
+  width: 100%;
+  padding-left: 40px;
+}
+     
+.sidebar-box {
+  max-height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.sidebar-box .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; padding: 30px 0; 
+    
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent,#667171);
+} }
+
+@media only screen and (min-width: 768px) {
+
+.more {
+ display: none;
+}
+}
+  /* For desktop*/
+
+
 
 
 /*font-family: 'Amatic SC', cursive;
