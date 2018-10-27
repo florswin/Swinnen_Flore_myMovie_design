@@ -18,7 +18,7 @@ body, html {
 }
 .parallax2 { 
   
-     background-image: url(./images/shawshank.jpg);
+     background-image: url(./images/shawshank3.jpg);
      height: 500px; 
      background-attachment: fixed;
      background-position: center;
@@ -81,9 +81,12 @@ body, html {
     font-size: 2em;
   }
   
-  .quotetekst1 {
-    color: white;
-  }
+#filmroll {
+  max-width: 300px;
+  margin-left: 200px;
+  margin: 55px;
+  margin-left: 100px;
+}
 
   .icons {
     position: absolute;
@@ -92,6 +95,7 @@ body, html {
     text-align: right;
     padding-right: 40px; 
     font-size: 2em; 
+    z-index:1;
   }
 
   .bloktekst span.filmtitel {
@@ -108,28 +112,29 @@ body, html {
 
 .introductie {
     position: absolute;
-    top: 30%;
+    top: 40%;
   }
 
 
   h3 {
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 25px;
+    font-size: 4em;
     color: white;
-    text-align: center;
+    text-align: justify;
     padding-bottom: 10px;
   }
 
 .text {
     color: white;
-    background-color: #0F0F0F;
+    background-color:  #1D1E22;
     text-align: center;
     padding: 50px 80px;
 }
-
+.text1 {
+  padding: 70px;
+  text-align: justify;
+}
 .container-fluid {
-  background-color:  #0F0F0F;
+  background-color: #1D1D1E;
 }
 
 .intro {
@@ -177,7 +182,6 @@ emphasize {
 
 }
 
-
 .logo {
 max-width: 80px;
 float: right;
@@ -203,7 +207,7 @@ padding: 20px 0px 10px;
 }
 
 .shawshank {
-  background-color: #54312b;
+  background-color: #4f241d;
 }
 
 .ring {
@@ -250,12 +254,17 @@ padding: 20px 0px 10px;
   bottom: 80%;
 }
 
+#filmroll {
+  display: none;
+}
+
 .button {
   font-size: 0.8em;
-  bottom: 5%;
-  left: 100%;
-  width: 100%;
-  padding-left: 40px;
+  top: 95%;
+  left: 80%;
+  width: 50%;
+  height: 15%;
+  text-align: center;
 }
      
 .fade-out {
@@ -274,7 +283,7 @@ padding: 20px 0px 10px;
 } 
 
 .shawshankcolor {
-  background-image: linear-gradient(to bottom, transparent,#54312b);
+  background-image: linear-gradient(to bottom, transparent,#4f241d);
 }
 
 .ringcolor {
@@ -292,8 +301,6 @@ padding: 20px 0px 10px;
 .trumancolor {
   background-image: linear-gradient(to bottom, transparent,#556c8b);
 }
-
-
 
 .fade-out {
   margin-bottom: 30px;
@@ -314,14 +321,33 @@ padding: 5px 10px;
   text-decoration: none;
 }
 
+.quote {
+  font-size: 1.3em;
+  padding-right: 10px;
+}
 
+.bloktekst {
+  font-size: 0.8em;
+}
+
+a:active {
+  max-height: none;
+}
+
+.icons {
+  font-size: 1.2em;
+  z-index: 1;
+}
+}
+
+.intro {
+  font-size: 3em;
 }
 
 @media only screen and (min-width: 768px) {
-
-.more {
- display: none;
-}
+  .read-more {
+    display:none;
+  }
 }
   /* For desktop*/
 
