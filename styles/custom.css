@@ -258,22 +258,64 @@ padding: 20px 0px 10px;
   padding-left: 40px;
 }
      
-.sidebar-box {
+.fade-out {
   max-height: 120px;
   position: relative;
   overflow: hidden;
 }
-.sidebar-box .read-more { 
+.fade-out .read-more {
   position: absolute; 
   bottom: 0; 
   left: 0;
   width: 100%; 
   text-align: center; 
-  margin: 0; padding: 30px 0; 
-    
-  /* "transparent" only works here because == rgba(0,0,0,0) */
+  margin: 0; 
+  padding: 10px 0;
+} 
+
+.shawshankcolor {
+  background-image: linear-gradient(to bottom, transparent,#54312b);
+}
+
+.ringcolor {
+  background-image: linear-gradient(to bottom, transparent,#6E5E38);
+}
+
+.vitacolor {
   background-image: linear-gradient(to bottom, transparent,#667171);
-} }
+}
+
+.forrestcolor {
+  background-image: linear-gradient(to bottom, transparent,#67544A);
+}
+
+.trumancolor {
+  background-image: linear-gradient(to bottom, transparent,#556c8b);
+}
+
+
+
+.fade-out {
+  margin-bottom: 30px;
+}
+.read-more {
+  top: 57%;
+}
+.more {
+color: #BDBCBC;
+font-size: 1em;
+background-color: rgba(20, 20, 20, 0.7);
+padding: 5px 10px;
+}
+
+.more:hover {
+  color: black;
+  background: white;
+  text-decoration: none;
+}
+
+
+}
 
 @media only screen and (min-width: 768px) {
 
