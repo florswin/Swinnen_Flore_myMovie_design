@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif; 
     color: white;
     font-size: 16px;
 
@@ -78,6 +78,7 @@ body, html {
     color:#FFFFFF;
     font-style: italic;
     font-family: 'Radley', serif;
+    font-family: "Segoe UI", serif;
     font-size: 2em;
   }
   
@@ -243,6 +244,7 @@ padding: 20px 0px 10px;
   margin-left: 8%;
   font-family: 'Josefin Slab', serif;
   font-family: 'Kameron', serif;
+  font-family: "Segoe UI", serif;
   text-shadow: 2px 2px 20px #2E2D2D;
 }
 
